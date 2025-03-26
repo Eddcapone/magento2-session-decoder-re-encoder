@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         function copyToClipboard(elementId) {
             const text = document.getElementById(elementId).textContent;
             navigator.clipboard.writeText(text).then(() => {
-                alert('Copied to clipboard');
+                console.log('Copied to clipboard');
             }).catch(err => alert('Failed to copy: ', err));
         }
     </script>
