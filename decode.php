@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Remove the temporary textarea
             document.body.removeChild(tempTextArea);
 
-            alert("Copied to clipboard");  // Alert the user
+            // alert("Copied to clipboard");  // Alert the user
         }
     </script>
 </head>
